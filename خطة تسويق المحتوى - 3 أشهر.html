@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خطة تسويق تيك توك | شركة بصمة رصين للمحاماة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Color Palette: Brilliant Blues -->
+    <!-- NEITHER Mermaid JS NOR SVG were used in this file. All visuals are created with Chart.js (Canvas) or styled HTML/CSS. -->
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 350px;
+            width: 100%;
+            max-width: 600px;
+        }
+        .flow-arrow::after {
+            content: '▼';
+            font-size: 2rem;
+            color: #004e92;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        @media (min-width: 768px) {
+            .flow-arrow::after {
+                content: '▶';
+                margin-top: 0;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800">خطة تسويق المحتوى عبر <span class="text-[#004e92]">تيك توك</span></h1>
+            <p class="text-xl md:text-2xl text-gray-600 mt-2">شركة بصمة رصين للمحاماة والاستشارات القانونية</p>
+            <div class="w-24 h-1.5 bg-[#4286f4] mx-auto mt-4 rounded-full"></div>
+        </header>
+
+        <section id="goals" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">الأهداف الرئيسية للخطة (3 أشهر)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-3">🎯</div>
+                    <h3 class="text-xl font-bold text-[#000428]">بناء الوعي بالعلامة</h3>
+                    <p class="text-gray-600 mt-2">ترسيخ اسم "بصمة رصين" كمرجع قانوني موثوق.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-3">📈</div>
+                    <h3 class="text-xl font-bold text-[#000428]">تنمية قاعدة المتابعين</h3>
+                    <p class="text-gray-600 mt-2">هدف الوصول إلى <span class="font-bold">10-34 ألف</span> متابع.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-3">👍</div>
+                    <h3 class="text-xl font-bold text-[#000428]">زيادة التفاعل</h3>
+                    <p class="text-gray-600 mt-2">تشجيع الإعجابات، التعليقات، والمشاركات.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-3">🤝</div>
+                    <h3 class="text-xl font-bold text-[#000428]">جذب العملاء</h3>
+                    <p class="text-gray-600 mt-2">تحويل المتابعين المهتمين إلى عملاء فعليين.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="strategy" class="mb-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#000428]">استراتيجية النشر اليومي</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-10">لضمان التغطية الواسعة والتفاعل المستمر، سيتم نشر 1 إلى 3 فيديوهات يوميًا وفق هيكل مدروس يخدم أهدافًا مختلفة على مدار اليوم.</p>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <div class="p-6 border-2 border-[#ade8f4] rounded-lg text-center flex-1">
+                    <p class="font-bold text-sm text-[#004e92]">صباحًا</p>
+                    <h3 class="text-lg font-bold mt-1">نصيحة قانونية سريعة</h3>
+                    <p class="text-sm text-gray-600 mt-2">(15-20 ثانية) لجذب الانتباه وتقديم قيمة فورية.</p>
+                </div>
+                <div class="flow-arrow flex items-center"></div>
+                <div class="p-6 border-2 border-[#4286f4] rounded-lg text-center flex-1">
+                    <p class="font-bold text-sm text-[#004e92]">ظهرًا</p>
+                    <h3 class="text-lg font-bold mt-1">مشكلة وحل قانوني</h3>
+                    <p class="text-sm text-gray-600 mt-2">(30-45 ثانية) لإظهار الخبرة ومعالجة تحديات واقعية.</p>
+                </div>
+                 <div class="flow-arrow flex items-center"></div>
+                <div class="p-6 border-2 border-[#004e92] rounded-lg text-center flex-1">
+                    <p class="font-bold text-sm text-[#004e92]">مساءً (3-4 مرات/أسبوع)</p>
+                    <h3 class="text-lg font-bold mt-1">فيديو احترافي/عرض خدمة</h3>
+                    <p class="text-sm text-gray-600 mt-2">(45-60 ثانية) لبناء الثقة وتشجيع التواصل.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="roadmap" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10 text-[#000428]">خارطة طريق المحتوى (3 أشهر)</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-center text-[#004e92] mb-2">الشهر الأول</h3>
+                    <p class="text-center text-gray-600 mb-6">أساسيات حياتك القانونية</p>
+                    <div class="chart-container"><canvas id="month1Chart"></canvas></div>
+                    <p class="text-center text-sm text-gray-500 mt-4">تركيز على قضايا الأحوال الشخصية والعمل لتغطية الاحتياجات الأساسية للجمهور.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-center text-[#004e92] mb-2">الشهر الثاني</h3>
+                    <p class="text-center text-gray-600 mb-6">حماية أصولك ومعاملاتك</p>
+                    <div class="chart-container"><canvas id="month2Chart"></canvas></div>
+                     <p class="text-center text-sm text-gray-500 mt-4">مواضيع تهم أصحاب العقارات، التجار، والشركات، بالإضافة إلى قضايا التنفيذ.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-center text-[#004e92] mb-2">الشهر الثالث</h3>
+                    <p class="text-center text-gray-600 mb-6">الأمان في عالم متغير</p>
+                    <div class="chart-container"><canvas id="month3Chart"></canvas></div>
+                     <p class="text-center text-sm text-gray-500 mt-4">مواكبة العصر بالتركيز على الجرائم المعلوماتية والتوعية القانونية الشاملة.</p>
+                </div>
+            </div>
+        </section>
+
+         <section id="guidelines" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#000428]">إرشادات لإنتاج محتوى فعال</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow text-center">💡 <span class="font-bold">الخطاف الجذاب (Hook)</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">📝 <span class="font-bold">التبسيط والوضوح</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">🎬 <span class="font-bold">الجودة البصرية والصوتية</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">⏱️ <span class="font-bold">المدة الزمنية المناسبة</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">📢 <span class="font-bold">الدعوة للإجراء (CTA)</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">#️⃣ <span class="font-bold">الهاشتاغات الذكية</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">💬 <span class="font-bold">التفاعل المستمر</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">🎶 <span class="font-bold">متابعة الترندات</span></div>
+                <div class="bg-white p-4 rounded-lg shadow text-center">📍 <span class="font-bold">تخصيص المحتوى للمنطقة</span></div>
+            </div>
+        </section>
+
+        <section id="results" class="bg-white rounded-xl shadow-lg p-8">
+             <h2 class="text-3xl font-bold text-center mb-8 text-[#000428]">توقعات النتائج</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center">
+                    <p class="text-2xl text-gray-600">الوصول إلى</p>
+                    <p class="text-7xl font-black text-[#004e92] my-4">34,000</p>
+                    <p class="text-2xl text-gray-600">متابع جديد خلال 90 يومًا</p>
+                </div>
+                <div>
+                     <div class="chart-container h-80"><canvas id="kpiChart"></canvas></div>
+                     <p class="text-center text-gray-600 mt-4">توزيع النتائج المتوقعة على مؤشرات الأداء الرئيسية.</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer class="text-center py-6 bg-gray-800 text-white mt-12">
+        <p>&copy; 2025 | خطة تسويق مقدمة لـ شركة بصمة رصين للمحاماة والاستشارات القانونية.</p>
+    </footer>
+
+    <script>
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const commonChartOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        font: {
+                            family: 'Cairo',
+                            size: 12
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    bodyFont: {
+                        family: 'Cairo'
+                    },
+                    titleFont: {
+                         family: 'Cairo'
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                            family: 'Cairo',
+                            size: 11
+                        }
+                    },
+                     grid: {
+                        display: false
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: {
+                            family: 'Cairo',
+                             size: 11
+                        }
+                    },
+                     grid: {
+                        color: '#e0e0e0',
+                        borderDash: [5, 5]
+                    },
+                    beginAtZero: true
+                }
+            }
+        };
+
+        const wrapLabel = (label) => {
+            const maxLength = 16;
+            if (label.length <= maxLength) return label;
+
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = '';
+            
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        };
+        
+        const month1Data = {
+            labels: ['الزواج والطلاق', 'الحضانة والزيارة', 'حقوق العمال (الموظفين)', 'واجبات أصحاب العمل'].map(wrapLabel),
+            datasets: [{
+                label: 'مواضيع الشهر الأول',
+                data: [25, 25, 25, 25],
+                backgroundColor: ['#ade8f4', '#4286f4', '#004e92', '#000428'],
+                borderColor: 'rgba(255, 255, 255, 0.5)',
+                borderWidth: 1
+            }]
+        };
+        new Chart(document.getElementById('month1Chart'), {
+            type: 'bar',
+            data: month1Data,
+            options: { ...commonChartOptions, indexAxis: 'y' }
+        });
+
+        const month2Data = {
+            labels: ['عقود الإيجار والنزاعات', 'البيع والشراء العقاري', 'الشركات والعقود التجارية', 'قضايا التنفيذ'].map(wrapLabel),
+            datasets: [{
+                label: 'مواضيع الشهر الثاني',
+                data: [25, 25, 25, 25],
+                backgroundColor: ['#ade8f4', '#4286f4', '#004e92', '#000428'],
+                borderColor: 'rgba(255, 255, 255, 0.5)',
+                borderWidth: 1
+            }]
+        };
+        new Chart(document.getElementById('month2Chart'), {
+            type: 'bar',
+            data: month2Data,
+            options: { ...commonChartOptions, indexAxis: 'y' }
+        });
+
+        const month3Data = {
+            labels: ['الابتزاز والتشهير', 'اختراق الحسابات', 'نصائح قانونية عامة', 'تفاعل مع الجمهور'].map(wrapLabel),
+            datasets: [{
+                label: 'مواضيع الشهر الثالث',
+                data: [25, 25, 25, 25],
+                backgroundColor: ['#ade8f4', '#4286f4', '#004e92', '#000428'],
+                borderColor: 'rgba(255, 255, 255, 0.5)',
+                borderWidth: 1
+            }]
+        };
+        new Chart(document.getElementById('month3Chart'), {
+            type: 'bar',
+            data: month3Data,
+            options: { ...commonChartOptions, indexAxis: 'y' }
+        });
+
+        const kpiData = {
+            labels: ['نمو المتابعين', 'زيادة التفاعل', 'جذب العملاء', 'تعزيز السمعة'],
+            datasets: [{
+                label: 'توقعات النتائج',
+                data: [40, 30, 20, 10],
+                backgroundColor: ['#004e92', '#4286f4', '#ade8f4', '#000428'],
+                hoverOffset: 4
+            }]
+        };
+        new Chart(document.getElementById('kpiChart'), {
+            type: 'doughnut',
+            data: kpiData,
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                     legend: {
+                        position: 'bottom',
+                        labels: {
+                            font: { family: 'Cairo', size: 12 }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        },
+                         bodyFont: { family: 'Cairo' },
+                         titleFont: { family: 'Cairo' }
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
